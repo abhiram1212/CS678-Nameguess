@@ -1,0 +1,805 @@
+,example_id,table_partition,table_id,technical_name,gt_label,prediction,difficulty,exact-match,f1
+0,0,sf_opendata,7qzr-p6xn,alias,ALIAS,Alias Name,0,0,0.6666666666666666
+1,0,sf_opendata,7qzr-p6xn,net_ret,NET RET,Net Return,0,0,0.5
+2,0,sf_opendata,7qzr-p6xn,ntitlemnt,Entitlement,Net Title Amount,0,0,0.0
+3,0,sf_opendata,7qzr-p6xn,netMps,NET MIPS,Net MPS,0,0,0.5
+4,0,sf_opendata,7qzr-p6xn,CST,COST,Cost,1,1,1.0
+5,0,sf_opendata,7qzr-p6xn,Mps,Mips,MPS,1,0,0.0
+6,0,sf_opendata,7qzr-p6xn,plann,Planner,Planner,1,1,1.0
+7,0,sf_opendata,7qzr-p6xn,zoni_gn,Zoning Gen,Zoning,1,0,0.6666666666666666
+8,0,sf_opendata,7qzr-p6xn,sec415,section 415,Section 415,1,1,1.0
+9,0,sf_opendata,7qzr-p6xn,Pplcn,Applicant,People Count,1,0,0.0
+10,1,sf_opendata,7qzr-p6xn,BstDt,Best Date,Best Date,1,1,1.0
+11,1,sf_opendata,7qzr-p6xn,pub_rlm,Public Realm,Public Realm,1,1,1.0
+12,1,sf_opendata,7qzr-p6xn,VST,Visit,Visit,1,1,1.0
+13,1,sf_opendata,7qzr-p6xn,cct,Contact,Circuit,1,0,0.0
+14,1,sf_opendata,7qzr-p6xn,loc,Location,Location,1,1,1.0
+15,1,sf_opendata,7qzr-p6xn,nhood,Neighborhood,Neighborhood,1,1,1.0
+16,1,sf_opendata,7qzr-p6xn,ph,Phase,Phase,1,1,1.0
+17,1,sf_opendata,7qzr-p6xn,Sts,STATUS,Status,1,1,1.0
+18,1,sf_opendata,7qzr-p6xn,htdist,height district,Heat Distance,1,0,0.0
+19,1,sf_opendata,7qzr-p6xn,NetVst,Net Visit,Net Visit,2,1,1.0
+20,2,sf_opendata,7qzr-p6xn,PlnArea,Plan Area,Planning Area,2,0,0.5
+21,2,sf_opendata,7qzr-p6xn,prpUse,Prop Use,Property Use,2,0,0.5
+22,2,sf_opendata,7qzr-p6xn,ZNNGDSTRCT,ZONING DISTRICT,Zoning District,2,1,1.0
+23,2,sf_opendata,7qzr-p6xn,PLNDIST,plan district,Planning District,2,1,1.0
+24,2,sf_opendata,7qzr-p6xn,PRJTP,project type,Project Type,2,1,1.0
+25,2,sf_opendata,7qzr-p6xn,tenutp,TENURE TYPE,Tenure Type,3,1,1.0
+26,3,sf_opendata,g5sr-9nhs,ALIAS,ALIAS,Address Alias,0,0,0.6666666666666666
+27,3,sf_opendata,g5sr-9nhs,mips,Mips,Mainframe Instructions Per Second,0,0,0.0
+28,3,sf_opendata,g5sr-9nhs,net_ret,NET RET,Net Return,0,0,0.5
+29,3,sf_opendata,g5sr-9nhs,Ntitlemnt,Entitlement,Entitlement Number,0,0,0.6666666666666666
+30,3,sf_opendata,g5sr-9nhs,netMps,Net Mips,Net Mainframe Instructions Per Second,0,0,0.28571428571428575
+31,3,sf_opendata,g5sr-9nhs,prp_use,Prop Use,Property Use,0,0,0.5
+32,3,sf_opendata,g5sr-9nhs,BSTDTE,BEST DATE,Base Start Date,1,0,0.4
+33,3,sf_opendata,g5sr-9nhs,pln_dstrct,PLAN DISTRICT,Planning District,1,1,1.0
+34,3,sf_opendata,g5sr-9nhs,Spnsr,SPONSOR,Sponsor,1,1,1.0
+35,3,sf_opendata,g5sr-9nhs,cst,cost,Cost,1,1,1.0
+36,4,sf_opendata,g5sr-9nhs,Plnnr,planner,Planner,1,1,1.0
+37,4,sf_opendata,g5sr-9nhs,sec415,section 415,Section 415,1,1,1.0
+38,4,sf_opendata,g5sr-9nhs,Vst,Visit,Visits,1,1,1.0
+39,4,sf_opendata,g5sr-9nhs,ht_dist,Height District,Height Distance,1,0,0.5
+40,4,sf_opendata,g5sr-9nhs,loc,Location,Location,1,1,1.0
+41,4,sf_opendata,g5sr-9nhs,NHOOD,Neighborhood,Neighborhood,1,1,1.0
+42,4,sf_opendata,g5sr-9nhs,tnr_ty,TENURE TYPE,Tenure Type,1,1,1.0
+43,4,sf_opendata,g5sr-9nhs,NetVst,NET VISIT,Net Visits,2,1,1.0
+44,4,sf_opendata,g5sr-9nhs,plnArea,Plan Area,Plan Area,2,1,1.0
+45,4,sf_opendata,g5sr-9nhs,znngDist,ZONING DISTRICT,Zoning Distance.,2,0,0.5
+46,5,sf_opendata,apz9-dh7k,alias,ALIAS,Alias,0,1,1.0
+47,5,sf_opendata,apz9-dh7k,mips,MIPS,MIPS (Millions of Instructions Per Second),0,0,0.2857142857142857
+48,5,sf_opendata,apz9-dh7k,net_ret,Net Ret,Net Return,0,0,0.5
+49,5,sf_opendata,apz9-dh7k,NTITLEMNT,ENTITLEMENT,Net Title Amount,0,0,0.0
+50,5,sf_opendata,apz9-dh7k,NETMPS,NET MIPS,Net MPS (Millions of Pixels),0,0,0.28571428571428575
+51,5,sf_opendata,apz9-dh7k,bstDte,BEST DATE,Best Date,1,1,1.0
+52,5,sf_opendata,apz9-dh7k,PLAN,PLANNER,Plan,1,0,0.0
+53,5,sf_opendata,apz9-dh7k,Vst,Visit,Visit,1,1,1.0
+54,5,sf_opendata,apz9-dh7k,pplc,APPLICANT,People Count,1,0,0.0
+55,5,sf_opendata,apz9-dh7k,cct,Contact,Contact.,1,1,1.0
+56,6,sf_opendata,apz9-dh7k,hgtdist,Height District,Height Distance,1,0,0.5
+57,6,sf_opendata,apz9-dh7k,Loc,Location,Location,1,1,1.0
+58,6,sf_opendata,apz9-dh7k,NBHD,Neighborhood,Neighborhood,1,1,1.0
+59,6,sf_opendata,apz9-dh7k,src,Source,Source,1,1,1.0
+60,6,sf_opendata,apz9-dh7k,netVst,Net Visit,Net Visit,2,1,1.0
+61,6,sf_opendata,apz9-dh7k,plndstrct,Plan District,Planned District,2,1,1.0
+62,6,sf_opendata,apz9-dh7k,PrpUse,Prop Use,Property Use,2,0,0.5
+63,6,sf_opendata,apz9-dh7k,ZONIDIST,Zoning District,Zoning District,2,1,1.0
+64,6,sf_opendata,apz9-dh7k,PrjTy,project type,Project Type,2,1,1.0
+65,6,sf_opendata,apz9-dh7k,plnR,plan area,Plan Region.,3,0,0.5
+66,7,sf_opendata,858q-nwrm,alias,ALIAS,Alias,0,1,1.0
+67,7,sf_opendata,858q-nwrm,NETMIPS,Net Mips,Network MIPS,0,0,0.5
+68,7,sf_opendata,858q-nwrm,netRet,net ret,Net Return,0,0,0.5
+69,7,sf_opendata,858q-nwrm,Ntitlemnt,ENTITLEMENT,Entitlement,0,1,1.0
+70,7,sf_opendata,858q-nwrm,BstDte,BEST DATE,Best Date,1,1,1.0
+71,7,sf_opendata,858q-nwrm,mps,mips,MPS,1,0,0.0
+72,7,sf_opendata,858q-nwrm,appli,APPLICANT,Applicant,1,1,1.0
+73,7,sf_opendata,858q-nwrm,filDt,File Date,File Date,1,1,1.0
+74,7,sf_opendata,858q-nwrm,vst,Visit,Visit,1,1,1.0
+75,7,sf_opendata,858q-nwrm,znng_dist,ZONING DISTRICT,Zoning District.,1,1,1.0
+76,8,sf_opendata,858q-nwrm,ct,CONTACT,Contractor,1,0,0.0
+77,8,sf_opendata,858q-nwrm,geog,Geography,Geography,1,1,1.0
+78,8,sf_opendata,858q-nwrm,ht_dist,HEIGHT DISTRICT,Height Distance,1,0,0.5
+79,8,sf_opendata,858q-nwrm,ctlmarktndrbnday,Central Market Tenderloin Boundary,Control Market Tender Bond Day,2,0,0.22222222222222224
+80,8,sf_opendata,858q-nwrm,netvst,Net Visit,Net Vest,2,0,0.5
+81,8,sf_opendata,858q-nwrm,ProjTp,PROJECT TYPE,Project Type,2,1,1.0
+82,8,sf_opendata,858q-nwrm,PrpUse,Prop Use,Property Use,2,0,0.5
+83,8,sf_opendata,858q-nwrm,ZNNGGN,Zoning Gen,Zoning Generation,2,0,0.5
+84,8,sf_opendata,858q-nwrm,nbh,NEIGHBORHOOD,Neighborhood.,3,1,1.0
+85,9,sf_opendata,vcwn-f2xk,AREA,AREA,Area in Square Feet,0,0,0.4
+86,9,sf_opendata,vcwn-f2xk,INCUNFEE1000,Inc Unit Fee 1000,Income Under Fee per 1000,0,0,0.4444444444444445
+87,9,sf_opendata,vcwn-f2xk,nsdq,nasdaq,NASDAQ Index,1,0,0.6666666666666666
+88,9,sf_opendata,vcwn-f2xk,lndusegivn,Land Use as Given,Land Use Given,2,0,0.8571428571428571
+89,9,sf_opendata,vcwn-f2xk,zonin_givn,ZONING AS GIVEN,Zoning Given,2,0,0.8
+90,9,sf_opendata,vcwn-f2xk,Yrs,Year,Years,3,1,1.0
+91,10,sf_opendata,dtz9-jkjt,ALIAS,Alias,Alias Name,0,0,0.6666666666666666
+92,10,sf_opendata,dtz9-jkjt,Cost,COST,Cost,0,1,1.0
+93,10,sf_opendata,dtz9-jkjt,NetMips,Net Mips,Net Mips,0,1,1.0
+94,10,sf_opendata,dtz9-jkjt,netret,Net Ret,Net Return,0,0,0.5
+95,10,sf_opendata,dtz9-jkjt,ntitlemnt,ENTITLEMENT,Net Title Amount,0,0,0.0
+96,10,sf_opendata,dtz9-jkjt,prp_use,Prop Use,Property Use,0,0,0.5
+97,10,sf_opendata,dtz9-jkjt,bstDte,BEST DATE,Best Date,1,1,1.0
+98,10,sf_opendata,dtz9-jkjt,mps,Mips,Mips Per Second,1,0,0.5
+99,10,sf_opendata,dtz9-jkjt,znng,ZONING,Zoning,1,1,1.0
+100,10,sf_opendata,dtz9-jkjt,hgt_dstrct,HEIGHT DISTRICT,Height District,1,1,1.0
+101,11,sf_opendata,dtz9-jkjt,plan,Planner,Plan Name,1,0,0.0
+102,11,sf_opendata,dtz9-jkjt,vst,Visit,Visits,1,1,1.0
+103,11,sf_opendata,dtz9-jkjt,ct,Contact,Contact,1,1,1.0
+104,11,sf_opendata,dtz9-jkjt,Loc,LOCATION,Location,1,1,1.0
+105,11,sf_opendata,dtz9-jkjt,APPL,applicant,Application,1,0,0.0
+106,11,sf_opendata,dtz9-jkjt,netVst,Net Visit,Net Visits,2,1,1.0
+107,11,sf_opendata,dtz9-jkjt,projtp,PROJECT TYPE,Project Type,2,1,1.0
+108,11,sf_opendata,dtz9-jkjt,ZNNGDSTRCT,ZONING DISTRICT,Zoning District,2,1,1.0
+109,11,sf_opendata,dtz9-jkjt,PlnArea,plan area,Plan Area,2,1,1.0
+110,11,sf_opendata,dtz9-jkjt,PLNDIST,plan district,Plan District.,2,1,1.0
+111,12,sf_opendata,dtz9-jkjt,Nbh,Neighborhood,Neighborhood,3,1,1.0
+112,13,sf_opendata,xyey-v962,area,Area,Area,0,1,1.0
+113,13,sf_opendata,xyey-v962,meth,Meth,Method,0,0,0.0
+114,13,sf_opendata,xyey-v962,dte,Date,Date,1,1,1.0
+115,14,sf_opendata,jt6x-6hpy,area,Area,Area,0,1,1.0
+116,14,sf_opendata,jt6x-6hpy,meth,METH,Method,0,0,0.0
+117,14,sf_opendata,jt6x-6hpy,dte,Date,Date,1,1,1.0
+118,15,sf_opendata,k7mk-w2pq,Cost,Cost,Cost,0,1,1.0
+119,15,sf_opendata,k7mk-w2pq,NETRET,NET RET,Net Return,0,0,0.5
+120,15,sf_opendata,k7mk-w2pq,NETMPS,NET MIPS,Net MPS,0,0,0.5
+121,15,sf_opendata,k7mk-w2pq,ntitlemnt,entitlement,Entitlement,0,1,1.0
+122,15,sf_opendata,k7mk-w2pq,pln_area,plan area,Plan Area,0,1,1.0
+123,15,sf_opendata,k7mk-w2pq,mps,Mips,MPS,1,0,0.0
+124,15,sf_opendata,k7mk-w2pq,zonin_dist,Zoning District,Zoning District,1,1,1.0
+125,15,sf_opendata,k7mk-w2pq,plnnr,planner,Planner,1,1,1.0
+126,15,sf_opendata,k7mk-w2pq,APPLI,Applicant,Applicant,1,1,1.0
+127,15,sf_opendata,k7mk-w2pq,TENUTY,Tenure Type,Tenure,1,0,0.6666666666666666
+128,16,sf_opendata,k7mk-w2pq,bstDt,best date,Best Date,1,1,1.0
+129,16,sf_opendata,k7mk-w2pq,VST,visit,Value of Site,1,0,0.0
+130,16,sf_opendata,k7mk-w2pq,ls,Alias,Location Street,1,0,0.0
+131,16,sf_opendata,k7mk-w2pq,CON,CONTACT,Contractor,1,0,0.0
+132,16,sf_opendata,k7mk-w2pq,Loc,LOCATION,Location Coordinates,1,0,0.6666666666666666
+133,16,sf_opendata,k7mk-w2pq,nbhd,Neighborhood,Neighborhood,1,1,1.0
+134,16,sf_opendata,k7mk-w2pq,HTDSTRCT,Height District,Height District,2,1,1.0
+135,16,sf_opendata,k7mk-w2pq,NETVST,Net Visit,Net Value of Site,2,0,0.3333333333333333
+136,16,sf_opendata,k7mk-w2pq,prpUse,PROP USE,Property Use,2,0,0.5
+137,16,sf_opendata,k7mk-w2pq,PrjTy,Project Type,Project Type,2,1,1.0
+138,17,sf_opendata,k7mk-w2pq,sxn415,SECTION 415,Service Type,2,0,0.0
+139,17,sf_opendata,k7mk-w2pq,znnggn,Zoning Gen,Property Type,2,0,0.0
+140,18,sf_opendata,iy4m-quhy,exit,Exit,Exit Rate,0,0,0.6666666666666666
+141,18,sf_opendata,iy4m-quhy,BncRte,BOUNCE RATE,Bounce Rate,2,1,1.0
+142,18,sf_opendata,iy4m-quhy,PGETI,Page Title,Page/Event Title Information,2,0,0.4
+143,19,sf_opendata,yrfc-c5yu,EXIT,Exit,Exit Rate,0,0,0.6666666666666666
+144,19,sf_opendata,yrfc-c5yu,PgeTi,Page Title,Page Title,2,1,1.0
+145,19,sf_opendata,yrfc-c5yu,bouncrt,bounce rate,Bounce Rate,2,1,1.0
+146,20,sf_opendata,65ik-7wqd,FOOD,Food,Food Available,0,0,0.6666666666666666
+147,20,sf_opendata,65ik-7wqd,hrs,Hours,Hours of Operation,1,0,0.5
+148,20,sf_opendata,65ik-7wqd,hrsTy,Hours Type,Hours Type,1,1,1.0
+149,20,sf_opendata,65ik-7wqd,SEAT,Seating,Seating Available,1,0,0.6666666666666666
+150,20,sf_opendata,65ik-7wqd,Sign,Signage,Signage Present,1,0,0.6666666666666666
+151,20,sf_opendata,65ik-7wqd,accy,ACCESSIBILITY,Accessibility,1,1,1.0
+152,20,sf_opendata,65ik-7wqd,mnts,Amenities,Amenities,1,1,1.0
+153,20,sf_opendata,65ik-7wqd,desc,Description,Description,1,1,1.0
+154,20,sf_opendata,65ik-7wqd,ndr,Indoor,Under Roof,1,0,0.0
+155,20,sf_opendata,65ik-7wqd,lndsc,LANDSCAPING,Landscape,1,1,1.0
+156,21,sf_opendata,65ik-7wqd,LOC,Location,Location,1,1,1.0
+157,21,sf_opendata,65ik-7wqd,Rest,RESTROOM,Restrictions,1,0,0.0
+158,21,sf_opendata,65ik-7wqd,ty,TYPE,Type,1,1,1.0
+159,21,sf_opendata,65ik-7wqd,YR,Year,Year,1,1,1.0
+160,21,sf_opendata,65ik-7wqd,Nm,name,Name,1,1,1.0
+161,21,sf_opendata,65ik-7wqd,Seat,SEATING NO,Seating,2,0,0.6666666666666666
+162,21,sf_opendata,65ik-7wqd,FoodSvc,Food Service,Food Service,3,1,1.0
+163,21,sf_opendata,65ik-7wqd,spmnts,Special Amenities,Special Amenities,3,1,1.0
+164,22,sf_opendata,5x94-tptc,Goal,Goal,Goal/Objective,0,0,0.0
+165,22,sf_opendata,5x94-tptc,descriptn,Description,Description,0,1,1.0
+166,22,sf_opendata,5x94-tptc,departmnt,department,Department,0,1,1.0
+167,22,sf_opendata,5x94-tptc,Own,OWNER,Owner,1,1,1.0
+168,22,sf_opendata,5x94-tptc,Prg,PROGRAM,Program,1,1,1.0
+169,22,sf_opendata,5x94-tptc,per_pttr,Performance Pattern,Performance Pattern,1,1,1.0
+170,22,sf_opendata,5x94-tptc,techdesc,TECHNICAL DESCRIPTION,Technical Description,1,1,1.0
+171,22,sf_opendata,5x94-tptc,annpermeasurpt,Annual Performance Measure Report,Annual Performance Measure Report,2,1,1.0
+172,22,sf_opendata,5x94-tptc,ctysurvrpt,CITY SURVEY REPORT,City Survey Report,2,1,1.0
+173,22,sf_opendata,5x94-tptc,GvtBaroRpt,Government Barometer Report,Government Barometer Report,2,1,1.0
+174,23,sf_opendata,5x94-tptc,perfPprslRpt,PERFORMANCE APPRAISAL REPORT,Performance Appraisal Report,2,1,1.0
+175,23,sf_opendata,5x94-tptc,PERFMSR,Performance Measure,Performance Measure,2,1,1.0
+176,23,sf_opendata,5x94-tptc,un_msr,Unit of Measure,Unit Measure,2,0,0.8
+177,23,sf_opendata,5x94-tptc,majSvcR,MAJOR SERVICE AREA,Major Service Rendered.,3,0,0.6666666666666666
+178,24,sf_opendata,qbyp-dnir,id,ID,ID Number,0,0,0.6666666666666666
+179,24,sf_opendata,qbyp-dnir,treas,treasurer,Treasurer,1,1,1.0
+180,24,sf_opendata,qbyp-dnir,NM,name,Name,1,1,1.0
+181,24,sf_opendata,qbyp-dnir,ty_flng,Type of Filing,Type of Filing,2,1,1.0
+182,25,sf_opendata,88s2-6ua9,KIND,Kind,Kind of Measure,0,0,0.5
+183,25,sf_opendata,88s2-6ua9,PASSFL,pass fail,Passage Flag,1,0,0.0
+184,25,sf_opendata,88s2-6ua9,prp_ti,Prop Title,Proposition Title,1,0,0.5
+185,25,sf_opendata,88s2-6ua9,mon,month,Month,1,1,1.0
+186,25,sf_opendata,88s2-6ua9,DT,Date,Date,1,1,1.0
+187,25,sf_opendata,88s2-6ua9,descr,Description,Description,1,1,1.0
+188,25,sf_opendata,88s2-6ua9,pc_rqd_pass,PERCENT REQUIRED TO PASS,Percent Required for Passage,2,0,0.5
+189,25,sf_opendata,88s2-6ua9,PCVT,Percent Vote No,Percent Voted,2,0,0.8
+190,25,sf_opendata,88s2-6ua9,prpltr,Prop Letter,Proposition Letter,2,0,0.5
+191,25,sf_opendata,88s2-6ua9,VTRINFORMATNPAMP,VOTER INFORMATION PAMPHLET,Voter Information Pamphlet URL.,2,0,0.8571428571428571
+192,26,sf_opendata,88s2-6ua9,Yrs,YEAR,Years,3,1,1.0
+193,27,sf_opendata,ewnu-9y3h,Long,Long,Longitude,0,0,0.0
+194,27,sf_opendata,ewnu-9y3h,blk,block,Block,1,1,1.0
+195,27,sf_opendata,ewnu-9y3h,adr,ADDRESS,Address,1,1,1.0
+196,27,sf_opendata,ewnu-9y3h,RDOFREQRNGMGHERTZ,RADIO FREQUENCY RANGE MEGAHERTZ,Radio Frequency Range Megahertz,2,1,1.0
+197,27,sf_opendata,ewnu-9y3h,srchringnmid,Search Ring Name ID,Search Ring ID,2,0,0.888888888888889
+198,27,sf_opendata,ewnu-9y3h,tpBldg,TYPE OF BUILDING,Type of Building,2,1,1.0
+199,27,sf_opendata,ewnu-9y3h,typ_csmr_svc,Type of Consumer Services,Type of Consumer Service,2,1,1.0
+200,27,sf_opendata,ewnu-9y3h,zoniDist,Zoning District,Zoning District,2,1,1.0
+201,27,sf_opendata,ewnu-9y3h,cxr,Carrier,Carrier,3,1,1.0
+202,27,sf_opendata,ewnu-9y3h,hgtblkdist,Height and Bulk District,Height Block Distance,3,0,0.28571428571428575
+203,28,sf_opendata,ewnu-9y3h,pwrouteqpt,Power Output of Equipment,Power Route Equipment,3,0,0.5714285714285715
+204,28,sf_opendata,ewnu-9y3h,TyTechnol,TYPE OF TECHNOLOGY,Type of Technology,3,1,1.0
+205,28,sf_opendata,ewnu-9y3h,httopant,HEIGHT TO TOP OF ANTENNA,Height to Top Antenna,3,0,0.888888888888889
+206,29,sf_opendata,2cma-9y6y,Mips,MIPS,Million Instructions Per Second,0,0,0.0
+207,29,sf_opendata,2cma-9y6y,NETRET,NET RET,Net Return,0,0,0.5
+208,29,sf_opendata,2cma-9y6y,NTITLEMNT,Entitlement,Net Title Amount,0,0,0.0
+209,29,sf_opendata,2cma-9y6y,net_mps,Net Mips,Net Million Instructions Per Second,0,0,0.28571428571428575
+210,29,sf_opendata,2cma-9y6y,net_vst,net visit,Net Visit,0,1,1.0
+211,29,sf_opendata,2cma-9y6y,FILDTE,FILE DATE,Filing Date,1,0,0.5
+212,29,sf_opendata,2cma-9y6y,plnnr,Planner,Planner,1,1,1.0
+213,29,sf_opendata,2cma-9y6y,ht_dstrct,HEIGHT DISTRICT,Health District,1,0,0.5
+214,29,sf_opendata,2cma-9y6y,vst,VISIT,Visit,1,1,1.0
+215,29,sf_opendata,2cma-9y6y,BstDt,best date,Best Date.,1,1,1.0
+216,30,sf_opendata,2cma-9y6y,cct,Contact,Contact,1,1,1.0
+217,30,sf_opendata,2cma-9y6y,loc,LOCATION,Location,1,1,1.0
+218,30,sf_opendata,2cma-9y6y,Nbhd,Neighborhood,Neighborhood,1,1,1.0
+219,30,sf_opendata,2cma-9y6y,ls,alias,Land Site,1,0,0.0
+220,30,sf_opendata,2cma-9y6y,APPL,applicant,Applicant,1,1,1.0
+221,30,sf_opendata,2cma-9y6y,PROJTY,PROJECT TYPE,Project Type,2,1,1.0
+222,30,sf_opendata,2cma-9y6y,PRPUSE,Prop Use,Proposed Use,2,0,0.5
+223,30,sf_opendata,2cma-9y6y,zoninDstrct,Zoning District,Zoning District,2,1,1.0
+224,30,sf_opendata,2cma-9y6y,plndstrct,plan district,Planning District.,2,1,1.0
+225,31,sf_opendata,3g5j-aamw,mail,Mail,Mail ID,0,0,0.6666666666666666
+226,31,sf_opendata,3g5j-aamw,Destinatn,Destination,Destination,0,1,1.0
+227,31,sf_opendata,3g5j-aamw,trm,term,Terminal,1,0,0.0
+228,31,sf_opendata,3g5j-aamw,airl,AIRLINE,Airline,1,1,1.0
+229,31,sf_opendata,3g5j-aamw,cnty,country,Country,1,1,1.0
+230,31,sf_opendata,3g5j-aamw,Wgt,Weight,Weight,1,1,1.0
+231,32,sf_opendata,ra2x-jzmk,Mips,Mips,Mainframe Instructions Per Second,0,0,0.0
+232,32,sf_opendata,ra2x-jzmk,NetRet,net ret,Net Return,0,0,0.5
+233,32,sf_opendata,ra2x-jzmk,NTITLEMNT,ENTITLEMENT,Net Title Amount,0,0,0.0
+234,32,sf_opendata,ra2x-jzmk,netMps,Net Mips,Net Mainframe Instructions Per Second,0,0,0.28571428571428575
+235,32,sf_opendata,ra2x-jzmk,Plann,PLANNER,Planner,1,1,1.0
+236,32,sf_opendata,ra2x-jzmk,srce,Source,Source,1,1,1.0
+237,32,sf_opendata,ra2x-jzmk,vst,VISIT,Visit,1,1,1.0
+238,32,sf_opendata,ra2x-jzmk,BstDt,best date,Best Date,1,1,1.0
+239,32,sf_opendata,ra2x-jzmk,Ls,Alias,Location,1,0,0.0
+240,32,sf_opendata,ra2x-jzmk,appl,Applicant,Applicant,1,1,1.0
+241,33,sf_opendata,ra2x-jzmk,CT,Contact,Custodian Trustee,1,0,0.0
+242,33,sf_opendata,ra2x-jzmk,hgtdist,Height District,Height Distance,1,0,0.5
+243,33,sf_opendata,ra2x-jzmk,LOC,Location,Location,1,1,1.0
+244,33,sf_opendata,ra2x-jzmk,nhood,NEIGHBORHOOD,Neighborhood,1,1,1.0
+245,33,sf_opendata,ra2x-jzmk,NetVst,Net Visit,Net Visit,2,1,1.0
+246,33,sf_opendata,ra2x-jzmk,prjtyp,PROJECT TYPE,Project Type,2,1,1.0
+247,33,sf_opendata,ra2x-jzmk,prpUse,Prop Use,Property Use,2,0,0.5
+248,33,sf_opendata,ra2x-jzmk,ZnngDstrct,Zoning District,Zoning District,2,1,1.0
+249,33,sf_opendata,ra2x-jzmk,CTLMARKTNDRBNDAY,central market tenderloin boundary,Control Market Tender Bond Day,2,0,0.22222222222222224
+250,33,sf_opendata,ra2x-jzmk,plnDist,plan district,Plan Distance.,2,0,0.5
+251,34,sf_opendata,ra2x-jzmk,PlnR,Plan Area,Plan Region.,3,0,0.5
+252,35,sf_opendata,wjie-z8kp,MIPS,Mips,Maximum Instructions Per Second,0,0,0.0
+253,35,sf_opendata,wjie-z8kp,mipsnet,MIPS NET,Network MIPS,0,0,0.5
+254,35,sf_opendata,wjie-z8kp,RetNet,Ret Net,Retained Network,0,0,0.0
+255,35,sf_opendata,wjie-z8kp,afdble_net,affordable net,Affordable Network,0,0,0.5
+256,35,sf_opendata,wjie-z8kp,ntitled,entitled,Entitled Network,0,0,0.6666666666666666
+257,35,sf_opendata,wjie-z8kp,BstDte,Best Date,Best Date,1,1,1.0
+258,35,sf_opendata,wjie-z8kp,vst_exst,Visit Exist,Visit Exist,1,1,1.0
+259,35,sf_opendata,wjie-z8kp,znng,Zoning,Zoning,1,1,1.0
+260,35,sf_opendata,wjie-z8kp,restnet,restaurant net,Rest Network,1,0,0.0
+261,35,sf_opendata,wjie-z8kp,SupNm,sup name,Supervisor Name,1,0,0.5
+262,36,sf_opendata,wjie-z8kp,afdble,AFFORDABLE,Affordable,1,1,1.0
+263,36,sf_opendata,wjie-z8kp,hot_rm_exst,HOTEL ROOM EXIST,Hotel Room Exist,1,1,1.0
+264,36,sf_opendata,wjie-z8kp,plnn,PLANNER,Planning,1,0,0.0
+265,36,sf_opendata,wjie-z8kp,spon,SPONSOR,Sponsor,1,1,1.0
+266,36,sf_opendata,wjie-z8kp,vst,Visit,Visit,1,1,1.0
+267,36,sf_opendata,wjie-z8kp,CCT,Contact,Current City Temperature,1,0,0.0
+268,36,sf_opendata,wjie-z8kp,lat,Latitude,Latitude,1,1,1.0
+269,36,sf_opendata,wjie-z8kp,Loc,Location,Location,1,1,1.0
+270,36,sf_opendata,wjie-z8kp,long,Longitude,Longitude,1,1,1.0
+271,36,sf_opendata,wjie-z8kp,Rest,Restaurant,Restaurant.,1,1,1.0
+272,37,sf_opendata,wjie-z8kp,yr,Year,Year,1,1,1.0
+273,37,sf_opendata,wjie-z8kp,case,CASE NO,Case Number,2,0,0.5
+274,37,sf_opendata,wjie-z8kp,hotrmprp,Hotel Room Prop,Hotel Room Property,2,0,0.6666666666666666
+275,37,sf_opendata,wjie-z8kp,lndUse,LAND USE,Land Use,2,1,1.0
+276,37,sf_opendata,wjie-z8kp,MPSEXST,Mips Exist,Existing Market Price,2,0,0.4
+277,37,sf_opendata,wjie-z8kp,TENURTYP,Tenure Type,Tenure Type,2,1,1.0
+278,37,sf_opendata,wjie-z8kp,VstNet,VISIT NET,Visitor Net,2,0,0.5
+279,37,sf_opendata,wjie-z8kp,RETEXST,ret exist,Existing Retail,2,0,0.5
+280,37,sf_opendata,wjie-z8kp,hotrmnet,HOTEL ROOM NET,Net Hotel Room,3,0,1.0
+281,37,sf_opendata,wjie-z8kp,sxn_415,Section 415,Section 415 Fee Payment,3,0,0.6666666666666666
+282,38,sf_opendata,w3e8-bxrm,mips,Mips,Maximum Instructions Per Second,0,0,0.0
+283,38,sf_opendata,w3e8-bxrm,netret,Net Ret,Net Return,0,0,0.5
+284,38,sf_opendata,w3e8-bxrm,ntitlemnt,ENTITLEMENT,Net Title Management,0,0,0.0
+285,38,sf_opendata,w3e8-bxrm,netmps,Net Mips,Net MPS,0,0,0.5
+286,38,sf_opendata,w3e8-bxrm,prp_use,Prop Use,Property Use,0,0,0.5
+287,38,sf_opendata,w3e8-bxrm,bst_dte,Best Date,Best Date,1,1,1.0
+288,38,sf_opendata,w3e8-bxrm,plann,Planner,Planner,1,1,1.0
+289,38,sf_opendata,w3e8-bxrm,srce,SOURCE,Source,1,1,1.0
+290,38,sf_opendata,w3e8-bxrm,znng_dstrct,ZONING DISTRICT,Zoning District,1,1,1.0
+291,38,sf_opendata,w3e8-bxrm,FILDT,File Date,Filing Date.,1,0,0.5
+292,39,sf_opendata,w3e8-bxrm,vst,visit,Visit,1,1,1.0
+293,39,sf_opendata,w3e8-bxrm,ls,ALIAS,Location Site,1,0,0.0
+294,39,sf_opendata,w3e8-bxrm,ct,Contact,Contact,1,1,1.0
+295,39,sf_opendata,w3e8-bxrm,HGTDIST,HEIGHT DISTRICT,Height Distance,1,0,0.5
+296,39,sf_opendata,w3e8-bxrm,LOC,Location,Location Coordinates,1,0,0.6666666666666666
+297,39,sf_opendata,w3e8-bxrm,Appl,applicant,Applicant,1,1,1.0
+298,39,sf_opendata,w3e8-bxrm,NBHD,neighborhood,Neighborhood,1,1,1.0
+299,39,sf_opendata,w3e8-bxrm,netVst,Net Visit,Net Visit,2,1,1.0
+300,39,sf_opendata,w3e8-bxrm,PlnDist,PLAN DISTRICT,Plan Distance,2,0,0.5
+301,39,sf_opendata,w3e8-bxrm,projTyp,PROJECT TYPE,Project Type,2,1,1.0
+302,40,sf_opendata,w3e8-bxrm,plnArea,plan area,Planning Area.,2,0,0.5
+303,41,sf_opendata,33nh-56zb,mips,Mips,Mainframe Instructions Per Second,0,0,0.0
+304,41,sf_opendata,33nh-56zb,MipsNet,MIPS NET,Net Mainframe Instructions Per Second,0,0,0.28571428571428575
+305,41,sf_opendata,33nh-56zb,retNet,Ret Net,Network Return,0,0,0.0
+306,41,sf_opendata,33nh-56zb,Ntitled,Entitled,Network Title,0,0,0.0
+307,41,sf_opendata,33nh-56zb,vst_net,Visit Net,Network Visit,0,0,0.5
+308,41,sf_opendata,33nh-56zb,zonin,ZONING,Zoning,0,1,1.0
+309,41,sf_opendata,33nh-56zb,bstDte,Best Date,Best Date,1,1,1.0
+310,41,sf_opendata,33nh-56zb,HtBulk,Height Bulk,Heat Bulk,1,0,0.5
+311,41,sf_opendata,33nh-56zb,rest_net,restaurant net,Rest Network,1,0,0.0
+312,41,sf_opendata,33nh-56zb,Afdble,AFFORDABLE,Affordable.,1,1,1.0
+313,42,sf_opendata,33nh-56zb,hot_rm_exst,Hotel Room Exist,Hotel Room Existing,1,1,1.0
+314,42,sf_opendata,33nh-56zb,spon,Sponsor,Sponsor,1,1,1.0
+315,42,sf_opendata,33nh-56zb,vst,Visit,Visit,1,1,1.0
+316,42,sf_opendata,33nh-56zb,plan,planner,Plan,1,0,0.0
+317,42,sf_opendata,33nh-56zb,lat,LATITUDE,Latitude,1,1,1.0
+318,42,sf_opendata,33nh-56zb,rest,Restaurant,Restaurant,1,1,1.0
+319,42,sf_opendata,33nh-56zb,cct,contact,Contact,1,1,1.0
+320,42,sf_opendata,33nh-56zb,Lon,longitude,Longitude,1,1,1.0
+321,42,sf_opendata,33nh-56zb,cs,Case No,Case Status,2,0,0.5
+322,42,sf_opendata,33nh-56zb,HotRmPrp,Hotel Room Prop,Hotel Room Property.,2,0,0.6666666666666666
+323,43,sf_opendata,33nh-56zb,LndUse,Land Use,Land Use,2,1,1.0
+324,43,sf_opendata,33nh-56zb,mpsExst,Mips Exist,Existing Square Footage,2,0,0.4
+325,43,sf_opendata,33nh-56zb,PDAEXST,Pda Exist,Planning Department Area,2,0,0.0
+326,43,sf_opendata,33nh-56zb,retexst,Ret Exist,Retail Existing,2,0,0.5
+327,43,sf_opendata,33nh-56zb,tnrtyp,TENURE TYPE,Tenure Type,2,1,1.0
+328,43,sf_opendata,33nh-56zb,vstExst,Visit Exist,Visitor Existing,2,0,0.5
+329,43,sf_opendata,33nh-56zb,afdblenet,affordable net,Affordable Net,2,1,1.0
+330,43,sf_opendata,33nh-56zb,hotrmnet,HOTEL ROOM NET,Hotel Room Net,3,1,1.0
+331,43,sf_opendata,33nh-56zb,sxn_415,Section 415,Section 415,3,1,1.0
+332,44,sf_opendata,ua32-eewd,MIPS,Mips,Mainframe Instructions Per Second,0,0,0.0
+333,44,sf_opendata,ua32-eewd,mipsnet,MIPS NET,Network MIPS,0,0,0.5
+334,44,sf_opendata,ua32-eewd,RetNet,Ret Net,Retention Network,0,0,0.0
+335,44,sf_opendata,ua32-eewd,ntitled,Entitled,Not Titled,0,0,0.0
+336,44,sf_opendata,ua32-eewd,LOC1,LOCATION 1,Location 1,1,1,1.0
+337,44,sf_opendata,ua32-eewd,PLANN,Planner,Planning,1,0,0.0
+338,44,sf_opendata,ua32-eewd,sec415,Section 415,Section 415,1,1,1.0
+339,44,sf_opendata,ua32-eewd,vst_exst,Visit Exist,Existing Structure,1,0,0.5
+340,44,sf_opendata,ua32-eewd,ZoninGn,ZONING GEN,Zoning General,1,0,0.5
+341,44,sf_opendata,ua32-eewd,znng_dstrct,Zoning District,Zoning District.,1,1,1.0
+342,45,sf_opendata,ua32-eewd,restnet,restaurant net,Residential Network,1,0,0.0
+343,45,sf_opendata,ua32-eewd,afdble,AFFORDABLE,Affordable Housing,1,0,0.6666666666666666
+344,45,sf_opendata,ua32-eewd,bst_dt,Best Date,Best Date,1,1,1.0
+345,45,sf_opendata,ua32-eewd,hot_rm_prp,Hotel Room Prop,Hotel Room Property,1,0,0.6666666666666666
+346,45,sf_opendata,ua32-eewd,prj_typ,Project Type,Project Type,1,1,1.0
+347,45,sf_opendata,ua32-eewd,spon,Sponsor,Sponsor,1,1,1.0
+348,45,sf_opendata,ua32-eewd,vst,Visit,Visit,1,1,1.0
+349,45,sf_opendata,ua32-eewd,con,Contact,Contractor,1,0,0.0
+350,45,sf_opendata,ua32-eewd,REST,Restaurant,Restaurant,1,1,1.0
+351,45,sf_opendata,ua32-eewd,supvr,Supervisor,Supervisor.,1,1,1.0
+352,46,sf_opendata,ua32-eewd,tnr_tp,Tenure Type,Tenant Type,1,0,0.5
+353,46,sf_opendata,ua32-eewd,nhood,neighborhood,Neighborhood,1,1,1.0
+354,46,sf_opendata,ua32-eewd,cs,CASE NO,Case Number,2,0,0.5
+355,46,sf_opendata,ua32-eewd,hotrmexst,Hotel Room Exist,Hotel Rooms Existing,2,1,1.0
+356,46,sf_opendata,ua32-eewd,MIPSEXST,Mips Exist,Mixed Income Program Existing,2,0,0.3333333333333333
+357,46,sf_opendata,ua32-eewd,PLNDIST,Plan District,Planning District,2,1,1.0
+358,46,sf_opendata,ua32-eewd,RetExst,RET EXIST,Retail Existing,2,0,0.5
+359,46,sf_opendata,ua32-eewd,vstNet,Visit Net,Visitor Net,2,0,0.5
+360,46,sf_opendata,ua32-eewd,afdbleNet,affordable net,Affordable Net,2,1,1.0
+361,46,sf_opendata,ua32-eewd,hotrmnet,HOTEL ROOM NET,Hotel Rooms Net.,3,1,1.0
+362,47,sf_opendata,ua32-eewd,plnR,Plan Area,Plan Region,3,0,0.5
+363,48,sf_opendata,tcek-yifh,mips,Mips,Market Price Share,0,0,0.0
+364,48,sf_opendata,tcek-yifh,ret_net,Ret Net,Return Net,0,0,0.5
+365,48,sf_opendata,tcek-yifh,afdble_net,Affordable Net,Affordable Net,0,1,1.0
+366,48,sf_opendata,tcek-yifh,MPSNET,MIPS NET,Market Price Share Net,0,0,0.3333333333333333
+367,48,sf_opendata,tcek-yifh,Ntitled,entitled,Net Titled,0,0,0.0
+368,48,sf_opendata,tcek-yifh,Loc1,Location 1,Location 1,1,1,1.0
+369,48,sf_opendata,tcek-yifh,PLANN,Planner,Planner,1,1,1.0
+370,48,sf_opendata,tcek-yifh,restNet,Restaurant Net,Rest Net,1,0,0.5
+371,48,sf_opendata,tcek-yifh,sec415,Section 415,Section 415,1,1,1.0
+372,48,sf_opendata,tcek-yifh,afdble,AFFORDABLE,Affordable.,1,1,1.0
+373,49,sf_opendata,tcek-yifh,BstDt,Best Date,Best Date,1,1,1.0
+374,49,sf_opendata,tcek-yifh,hotRm,Hotel Room,Hotel Room,1,1,1.0
+375,49,sf_opendata,tcek-yifh,vst,Visit,Visit,1,1,1.0
+376,49,sf_opendata,tcek-yifh,SPNS,sponsor,Sponsor,1,1,1.0
+377,49,sf_opendata,tcek-yifh,ct,Contact,City,1,0,0.0
+378,49,sf_opendata,tcek-yifh,REST,Restaurant,Restaurant,1,1,1.0
+379,49,sf_opendata,tcek-yifh,Yr,Year,Year,1,1,1.0
+380,49,sf_opendata,tcek-yifh,case,CASE NO,Case Number,2,0,0.5
+381,49,sf_opendata,tcek-yifh,CNTRLMRKTTENDEBNDAY,Central Market Tenderloin Boundary,Control Market Tenure End Day,2,0,0.22222222222222224
+382,49,sf_opendata,tcek-yifh,hotrmexst,HOTEL ROOM EXIST,Hotel Room Existence,2,0,0.6666666666666666
+383,50,sf_opendata,tcek-yifh,mpsexst,MIPS EXIST,Monthly Personal Expenses,2,0,0.0
+384,50,sf_opendata,tcek-yifh,RetExst,RET EXIST,Retirement Expenses,2,0,0.0
+385,50,sf_opendata,tcek-yifh,tenurtyp,TENURE TYPE,Tenure Type,2,1,1.0
+386,50,sf_opendata,tcek-yifh,vstexst,Visit Exist,Visiting Expenses,2,0,0.5
+387,50,sf_opendata,tcek-yifh,VstNet,Visit Net,Visiting Net Income,2,0,0.8
+388,50,sf_opendata,tcek-yifh,prjTp,project type,Project Type,2,1,1.0
+389,50,sf_opendata,tcek-yifh,HotRmNet,HOTEL ROOM NET,Hotel Room Net Income,3,0,0.8571428571428571
+390,50,sf_opendata,tcek-yifh,PlnR,plan area,Plan Region.,3,0,0.5
+391,51,sf_opendata,d7xx-7z6v,MIPS,Mips,Maximum Instructions Per Second,0,0,0.0
+392,51,sf_opendata,d7xx-7z6v,net_ret,Net Ret,Net Return,0,0,0.5
+393,51,sf_opendata,d7xx-7z6v,NTITLEMNT,Entitlement,Net Title Amount,0,0,0.0
+394,51,sf_opendata,d7xx-7z6v,NetMps,NET MIPS,Net Maximum Instructions Per Second,0,0,0.28571428571428575
+395,51,sf_opendata,d7xx-7z6v,tenur_typ,tenure type,Tenure Type,0,1,1.0
+396,51,sf_opendata,d7xx-7z6v,CST,COST,Cost,1,1,1.0
+397,51,sf_opendata,d7xx-7z6v,PLANN,Planner,Planner,1,1,1.0
+398,51,sf_opendata,d7xx-7z6v,sec_415,SECTION 415,Section 415,1,1,1.0
+399,51,sf_opendata,d7xx-7z6v,znng,Zoning,Zoning,1,1,1.0
+400,51,sf_opendata,d7xx-7z6v,APPLI,applicant,Applicant,1,1,1.0
+401,52,sf_opendata,d7xx-7z6v,bstDt,best date,Best Date,1,1,1.0
+402,52,sf_opendata,d7xx-7z6v,vst,visit,Visit,1,1,1.0
+403,52,sf_opendata,d7xx-7z6v,ls,Alias,Lease Status,1,0,0.0
+404,52,sf_opendata,d7xx-7z6v,ct,Contact,Contact,1,1,1.0
+405,52,sf_opendata,d7xx-7z6v,loc,Location,Location,1,1,1.0
+406,52,sf_opendata,d7xx-7z6v,sts,STATUS,Status,1,1,1.0
+407,52,sf_opendata,d7xx-7z6v,CntrlMarkTendeBnday,CENTRAL MARKET TENDERLOIN BOUNDARY,Control Market Tender Bond Day,2,0,0.22222222222222224
+408,52,sf_opendata,d7xx-7z6v,htdstrct,Height District,Head District,2,0,0.5
+409,52,sf_opendata,d7xx-7z6v,NetVst,NET VISIT,Net Visit,2,1,1.0
+410,52,sf_opendata,d7xx-7z6v,PlnArea,PLAN AREA,Plan Area,2,1,1.0
+411,53,sf_opendata,d7xx-7z6v,PLNDIST,PLAN DISTRICT,Planning District,2,1,1.0
+412,53,sf_opendata,d7xx-7z6v,PrpUse,PROP USE,Property Use,2,0,0.5
+413,53,sf_opendata,d7xx-7z6v,ZnngGn,ZONING GEN,Zoning General,2,0,0.5
+414,53,sf_opendata,d7xx-7z6v,ZNNGDSTRCT,Zoning District,Zoning District,2,1,1.0
+415,53,sf_opendata,d7xx-7z6v,projtyp,project type,Project Type,2,1,1.0
+416,53,sf_opendata,d7xx-7z6v,nbh,Neighborhood,Neighborhood,3,1,1.0
+417,53,sf_opendata,d7xx-7z6v,ctPh,Contact Phone,Contact Phone,3,1,1.0
+418,53,sf_opendata,d7xx-7z6v,phrealm,Public Realm,Phase Realm,3,0,0.5
+419,54,sf_opendata,prmp-bj7n,MIPS,Mips,Mainframe Instructions Per Second,0,0,0.0
+420,54,sf_opendata,prmp-bj7n,retNet,Ret Net,Return Network,0,0,0.0
+421,54,sf_opendata,prmp-bj7n,ntitled,ENTITLED,Not Titled,0,0,0.0
+422,54,sf_opendata,prmp-bj7n,MpsNet,MIPS NET,Maps Network,0,0,0.0
+423,54,sf_opendata,prmp-bj7n,objId,OBJECT ID,Object Identifier,1,0,0.5
+424,54,sf_opendata,prmp-bj7n,RestR1,Rest Aura 1,Rest Room 1,1,0,0.6666666666666666
+425,54,sf_opendata,prmp-bj7n,Znng,Zoning,Zoning,1,1,1.0
+426,54,sf_opendata,prmp-bj7n,BstDte,best date,Best Date,1,1,1.0
+427,54,sf_opendata,prmp-bj7n,afdble,Affordable,Affordable,1,1,1.0
+428,54,sf_opendata,prmp-bj7n,HOTRM,Hotel Room,Hotel Room.,1,1,1.0
+429,55,sf_opendata,prmp-bj7n,Plnn,Planner,Planner,1,1,1.0
+430,55,sf_opendata,prmp-bj7n,spns,Sponsor,Sponsor,1,1,1.0
+431,55,sf_opendata,prmp-bj7n,VST,Visit,Visit,1,1,1.0
+432,55,sf_opendata,prmp-bj7n,con,Contact,Contact,1,1,1.0
+433,55,sf_opendata,prmp-bj7n,lat,LATITUDE,Latitude,1,1,1.0
+434,55,sf_opendata,prmp-bj7n,Lon,Longitude,Longitude,1,1,1.0
+435,55,sf_opendata,prmp-bj7n,rest,Restaurant,Restaurant,1,1,1.0
+436,55,sf_opendata,prmp-bj7n,case,Case No,Case Number,2,0,0.5
+437,55,sf_opendata,prmp-bj7n,MipsExst,MIPS EXIST,MIPS Exist,2,1,1.0
+438,55,sf_opendata,prmp-bj7n,retExst,Ret Exist,Return Exist,2,0,0.5
+439,56,sf_opendata,prmp-bj7n,vstNet,Visit Net,Visitor Network,2,0,0.0
+440,56,sf_opendata,prmp-bj7n,LNDUSE,land use,Land Use,2,1,1.0
+441,56,sf_opendata,prmp-bj7n,sxn_415,SECTION 415,Section 415,3,1,1.0
+442,56,sf_opendata,prmp-bj7n,YRS,YEAR,Years,3,1,1.0
+443,57,sf_opendata,mm2x-xj5y,mips,Mips,Market Impact Points,0,0,0.0
+444,57,sf_opendata,mm2x-xj5y,retnet,Ret Net,Return on Net,0,0,0.4
+445,57,sf_opendata,mm2x-xj5y,ntitled,ENTITLED,Net Titled,0,0,0.0
+446,57,sf_opendata,mm2x-xj5y,mps_net,MIPS NET,Market Position Net,0,0,0.4
+447,57,sf_opendata,mm2x-xj5y,afdble_net,affordable net,Affordable Net,0,1,1.0
+448,57,sf_opendata,mm2x-xj5y,bstDte,Best Date,Best Date,1,1,1.0
+449,57,sf_opendata,mm2x-xj5y,hot_rm_net,Hotel Room Net,Hotel Room Net,1,1,1.0
+450,57,sf_opendata,mm2x-xj5y,RESTNET,Restaurant Net,Restaurant Net,1,1,1.0
+451,57,sf_opendata,mm2x-xj5y,tenu_typ,TENURE TYPE,Tenure Type,1,1,1.0
+452,57,sf_opendata,mm2x-xj5y,znng,ZONING,Zoning,1,1,1.0
+453,58,sf_opendata,mm2x-xj5y,HTBULK,height bulk,Hot Tub Bulk,1,0,0.4
+454,58,sf_opendata,mm2x-xj5y,afdble,AFFORDABLE,Affordable,1,1,1.0
+455,58,sf_opendata,mm2x-xj5y,plan,Planner,Plan,1,0,0.0
+456,58,sf_opendata,mm2x-xj5y,spon,SPONSOR,Sponsor,1,1,1.0
+457,58,sf_opendata,mm2x-xj5y,VST,Visit,Visit,1,1,1.0
+458,58,sf_opendata,mm2x-xj5y,Cct,CONTACT,Contact,1,1,1.0
+459,58,sf_opendata,mm2x-xj5y,LAT,Latitude,Latitude,1,1,1.0
+460,58,sf_opendata,mm2x-xj5y,rest,Restaurant,Rest,1,0,0.0
+461,58,sf_opendata,mm2x-xj5y,LONG,longitude,Longitude,1,1,1.0
+462,58,sf_opendata,mm2x-xj5y,yr,year,Year.,1,1,1.0
+463,59,sf_opendata,mm2x-xj5y,case,Case No,Case Number,2,0,0.5
+464,59,sf_opendata,mm2x-xj5y,hotrmexst,Hotel Room Exist,Hotel Room Existing,2,1,1.0
+465,59,sf_opendata,mm2x-xj5y,mpsexst,MIPS EXIST,Multi-Purpose Space Existing,2,0,0.4
+466,59,sf_opendata,mm2x-xj5y,retexst,RET EXIST,Retail Space Existing,2,0,0.4
+467,59,sf_opendata,mm2x-xj5y,sxn415,Section 415,Section 415,2,1,1.0
+468,59,sf_opendata,mm2x-xj5y,VSTEXST,Visit Exist,Visitor Space Existing,2,0,0.4
+469,59,sf_opendata,mm2x-xj5y,hotrmprp,hotel room prop,Hotel Room Proposed,2,0,0.6666666666666666
+470,59,sf_opendata,mm2x-xj5y,LNDUSE,land use,Land Use,2,1,1.0
+471,59,sf_opendata,mm2x-xj5y,VstNet,visit net,Visitor Space Net.,2,0,0.4
+472,60,sf_opendata,55nt-hnr5,mips,Mips,Monthly Income Per Share,0,0,0.0
+473,60,sf_opendata,55nt-hnr5,RETNET,Ret Net,Return Net,0,0,0.5
+474,60,sf_opendata,55nt-hnr5,ntitled,ENTITLED,Not Titled,0,0,0.0
+475,60,sf_opendata,55nt-hnr5,mpsnet,MIPS NET,Monthly Profit Share Net,0,0,0.3333333333333333
+476,60,sf_opendata,55nt-hnr5,ret_exst,RET EXIST,Return Exist,0,0,0.5
+477,60,sf_opendata,55nt-hnr5,bstdte,Best Date,Best Date,1,1,1.0
+478,60,sf_opendata,55nt-hnr5,Plann,PLANNER,Plan Name,1,0,0.0
+479,60,sf_opendata,55nt-hnr5,restNet,Restaurant Net,Rest Net,1,0,0.5
+480,60,sf_opendata,55nt-hnr5,spnsr,sponsor,Sponsor,1,1,1.0
+481,60,sf_opendata,55nt-hnr5,AFDBLE,AFFORDABLE,Adjustable Factor Double.,1,0,0.0
+482,61,sf_opendata,55nt-hnr5,prj_typ,project type,Project Type,1,1,1.0
+483,61,sf_opendata,55nt-hnr5,VST,visit,Visit,1,1,1.0
+484,61,sf_opendata,55nt-hnr5,ct,CONTACT,Contact,1,1,1.0
+485,61,sf_opendata,55nt-hnr5,LOC,LOCATION,Location,1,1,1.0
+486,61,sf_opendata,55nt-hnr5,lat,Latitude,Latitude,1,1,1.0
+487,61,sf_opendata,55nt-hnr5,long,Longitude,Longitude,1,1,1.0
+488,61,sf_opendata,55nt-hnr5,Nhood,Neighborhood,Neighborhood,1,1,1.0
+489,61,sf_opendata,55nt-hnr5,rest,Restaurant,Restaurant,1,1,1.0
+490,61,sf_opendata,55nt-hnr5,yr,Year,Year,1,1,1.0
+491,61,sf_opendata,55nt-hnr5,afdbleNet,Affordable Net,Affordable Net,2,1,1.0
+492,62,sf_opendata,55nt-hnr5,case,Case No,Case Number,2,0,0.5
+493,62,sf_opendata,55nt-hnr5,HotRmExst,HOTEL ROOM EXIST,Existing Hotel Rooms,2,0,1.0
+494,62,sf_opendata,55nt-hnr5,HOTRMPRP,HOTEL ROOM PROP,Proposed Hotel Rooms,2,0,0.6666666666666666
+495,62,sf_opendata,55nt-hnr5,mpsexst,MIPS EXIST,Existing Main Project Square Footage,2,0,0.28571428571428575
+496,62,sf_opendata,55nt-hnr5,sxn415,Section 415,Section 415 Compliance,2,0,0.8
+497,62,sf_opendata,55nt-hnr5,VSTEXST,Visit Exist,Existing Visitor Serving,2,0,0.4
+498,62,sf_opendata,55nt-hnr5,VstNet,Visit Net,Net Visitor Serving,2,0,0.4
+499,62,sf_opendata,55nt-hnr5,HotRmNet,HOTEL ROOM NET,Net Hotel Rooms,3,0,1.0
+500,62,sf_opendata,55nt-hnr5,TenurTp,TENURE TYPE,Tenure Type.,3,1,1.0
+501,63,sf_opendata,5s89-azqa,mips,Mips,Mainframe Instructions Per Second,0,0,0.0
+502,63,sf_opendata,5s89-azqa,RETNET,Ret Net,Return Network,0,0,0.0
+503,63,sf_opendata,5s89-azqa,Ntitled,Entitled,Not Titled,0,0,0.0
+504,63,sf_opendata,5s89-azqa,MpsNet,MIPS NET,Mainframe Processing Service Network,0,0,0.0
+505,63,sf_opendata,5s89-azqa,HtBulk,HEIGHT BULK,High Throughput Bulk,1,0,0.4
+506,63,sf_opendata,5s89-azqa,rest_net,RESTAURANT NET,Rest Network,1,0,0.0
+507,63,sf_opendata,5s89-azqa,Sec415,Section 415,Section 415,1,1,1.0
+508,63,sf_opendata,5s89-azqa,vst_exst,VISIT EXIST,Visit Exist,1,1,1.0
+509,63,sf_opendata,5s89-azqa,zoni,Zoning,Zoning,1,1,1.0
+510,63,sf_opendata,5s89-azqa,PLNNR,planner,Planner.,1,1,1.0
+511,64,sf_opendata,5s89-azqa,afdble,AFFORDABLE,Affordable,1,1,1.0
+512,64,sf_opendata,5s89-azqa,bst_dt,Best Date,Best Date,1,1,1.0
+513,64,sf_opendata,5s89-azqa,vst,Visit,Visit,1,1,1.0
+514,64,sf_opendata,5s89-azqa,spon,sponsor,Sponsor,1,1,1.0
+515,64,sf_opendata,5s89-azqa,ct,CONTACT,Count,1,0,0.0
+516,64,sf_opendata,5s89-azqa,lat,LATITUDE,Latitude,1,1,1.0
+517,64,sf_opendata,5s89-azqa,long,LONGITUDE,Longitude,1,1,1.0
+518,64,sf_opendata,5s89-azqa,loc,Location,Location,1,1,1.0
+519,64,sf_opendata,5s89-azqa,rest,Restaurant,Restaurant,1,1,1.0
+520,64,sf_opendata,5s89-azqa,YR,year,Year,1,1,1.0
+521,65,sf_opendata,5s89-azqa,cs,Case No,Case Number,2,0,0.5
+522,65,sf_opendata,5s89-azqa,hotrmprp,Hotel Room Prop,Hotel Room Proposed,2,0,0.6666666666666666
+523,65,sf_opendata,5s89-azqa,lndUse,Land Use,Land Use,2,1,1.0
+524,65,sf_opendata,5s89-azqa,mipsexst,Mips Exist,MIPS Existing,2,1,1.0
+525,65,sf_opendata,5s89-azqa,retexst,RET EXIST,Retail Existing,2,0,0.5
+526,65,sf_opendata,5s89-azqa,tnrTyp,TENURE TYPE,Tenure Type,2,1,1.0
+527,65,sf_opendata,5s89-azqa,VstNet,Visit Net,Visitor Net,2,0,0.5
+528,65,sf_opendata,5s89-azqa,afdblenet,affordable net,Affordable Net,2,1,1.0
+529,65,sf_opendata,5s89-azqa,hotrmexst,hotel room exist,Hotel Room Existing,2,1,1.0
+530,65,sf_opendata,5s89-azqa,HOTRMNET,hotel room net,Hotel Room Net.,3,1,1.0
+531,66,sf_opendata,43um-8u7u,notes,NOTES,Notes,0,1,1.0
+532,66,sf_opendata,43um-8u7u,arch,ARCHITECT,Architect,1,1,1.0
+533,66,sf_opendata,43um-8u7u,pg,page,Page Number,1,0,0.6666666666666666
+534,66,sf_opendata,43um-8u7u,HstorcCxtSttemntNm,HISTORIC CONTEXT STATEMENT NAME,Historic Context Statement Name,2,1,1.0
+535,66,sf_opendata,43um-8u7u,rue,Street,Building Number,3,0,0.0
+536,66,sf_opendata,43um-8u7u,yrs_blt_txt,YEAR BUILT TEXT,Years Built Text,3,1,1.0
+537,66,sf_opendata,43um-8u7u,RueNm,street name,Street Name,3,1,1.0
+538,67,sf_opendata,yg87-cd6v,NOTES,Notes,Notes,0,1,1.0
+539,67,sf_opendata,yg87-cd6v,eligibilty,Eligibility,Eligibility,0,1,1.0
+540,67,sf_opendata,yg87-cd6v,stte,State,State,0,1,1.0
+541,67,sf_opendata,yg87-cd6v,CTY,City,City,1,1,1.0
+542,67,sf_opendata,yg87-cd6v,Cst,Cost,Cost,1,1,1.0
+543,67,sf_opendata,yg87-cd6v,cntry,Country,Country,1,1,1.0
+544,67,sf_opendata,yg87-cd6v,NDDTE,END DATE,Next Due Date,1,0,0.4
+545,67,sf_opendata,yg87-cd6v,st1,STREET 1,Street 1,1,1,1.0
+546,67,sf_opendata,yg87-cd6v,BegDt,Begin Date,Beginning Date,1,1,1.0
+547,67,sf_opendata,yg87-cd6v,ct,Contact,Contact,1,1,1.0
+548,68,sf_opendata,yg87-cd6v,facnm,Facility Name,Facility Name,1,1,1.0
+549,68,sf_opendata,yg87-cd6v,LAT,Latitude,Latitude,1,1,1.0
+550,68,sf_opendata,yg87-cd6v,lon,Longitude,Longitude,1,1,1.0
+551,68,sf_opendata,yg87-cd6v,PH,PHONE,Phone Number,1,0,0.6666666666666666
+552,68,sf_opendata,yg87-cd6v,ccycd,CURRENCY CODE,Currency Code,2,1,1.0
+553,68,sf_opendata,yg87-cd6v,FACILTYTY,FACILITY TYPE,Facility Type,2,1,1.0
+554,68,sf_opendata,yg87-cd6v,pstalcd,POSTAL CODE,Postal Code,2,1,1.0
+555,68,sf_opendata,yg87-cd6v,BGNTM,Begin Time,Begin Time,3,1,1.0
+556,68,sf_opendata,yg87-cd6v,NDTM,End Time,End Time,3,1,1.0
+557,68,sf_opendata,yg87-cd6v,FACID,FACILITY ID,Facility ID,3,1,1.0
+558,69,sf_opendata,beah-shgi,TIER,TIER,Tier Level,0,0,0.6666666666666666
+559,69,sf_opendata,beah-shgi,STAT,Status,Status,1,1,1.0
+560,69,sf_opendata,beah-shgi,Bck,BLOCK,Backup,1,0,0.0
+561,69,sf_opendata,beah-shgi,parceNr,PARCEL NUMBER,Parcel Number,1,1,1.0
+562,69,sf_opendata,beah-shgi,adr,ADDRESS,Address,1,1,1.0
+563,69,sf_opendata,beah-shgi,pt,Point,Point,1,1,1.0
+564,69,sf_opendata,beah-shgi,PropAddr,Property Address,Property Address,2,1,1.0
+565,70,sf_opendata,tzh6-6j82,taxi,Taxi,Taxi Service,0,0,0.6666666666666666
+566,70,sf_opendata,tzh6-6j82,MPLEMNT,Implement,Implementation Date,0,0,0.0
+567,70,sf_opendata,tzh6-6j82,stat,Status,Status,1,1,1.0
+568,70,sf_opendata,tzh6-6j82,crrdr,Corridor,Corridor,1,1,1.0
+569,70,sf_opendata,tzh6-6j82,shp,SHAPE,Shape,1,1,1.0
+570,70,sf_opendata,tzh6-6j82,hrs,hours,Hours,1,1,1.0
+571,70,sf_opendata,tzh6-6j82,dir,Direction,Direction,1,1,1.0
+572,70,sf_opendata,tzh6-6j82,BusTrain,BUS OR TRAIN,Bus or Train,2,1,1.0
+573,70,sf_opendata,tzh6-6j82,DaTyp,DAY TYPE,Day Type,2,1,1.0
+574,70,sf_opendata,tzh6-6j82,LastEdDte,last edited date,Last Edited Date,2,1,1.0
+575,71,sf_opendata,tzh6-6j82,LastEdUsr,Last Edited User,Last Edited User,3,1,1.0
+576,72,sf_opendata,v94x-pf9r,Term,Term,Term Duration,0,0,0.6666666666666666
+577,72,sf_opendata,v94x-pf9r,pssmin,Pass Min,Passenger Minimum,0,0,0.0
+578,72,sf_opendata,v94x-pf9r,gte,Gate,Gate,1,1,1.0
+579,72,sf_opendata,v94x-pf9r,airl,Airline,Airline,1,1,1.0
+580,72,sf_opendata,v94x-pf9r,hm,Home,Hour Meter,1,0,0.0
+581,72,sf_opendata,v94x-pf9r,ml,Mail,Meal,1,0,0.0
+582,72,sf_opendata,v94x-pf9r,passtm,Pass Time,Passenger Time,3,0,0.5
+583,73,sf_opendata,nfpa-mg4g,Tests,Tests,Test Number,0,0,0.6666666666666666
+584,73,sf_opendata,nfpa-mg4g,Indeterminte,Indeterminate,Indeterminate Results,0,0,0.6666666666666666
+585,73,sf_opendata,nfpa-mg4g,dta_lded,Data Loaded At,Data Loaded Date,2,0,0.6666666666666666
+586,73,sf_opendata,nfpa-mg4g,spClnDt,Specimen Collection Date,Sample Collection Date,2,0,0.6666666666666666
+587,74,sf_opendata,xr4w-bx78,AREA,area,Area,0,1,1.0
+588,74,sf_opendata,xr4w-bx78,gte,Gate,Greater Than or Equal To,1,0,0.0
+589,74,sf_opendata,xr4w-bx78,meth,Method,Method,1,1,1.0
+590,74,sf_opendata,xr4w-bx78,WGHT,weight,Weight,1,1,1.0
+591,74,sf_opendata,xr4w-bx78,rln,Airline,Relation,1,0,0.0
+592,74,sf_opendata,xr4w-bx78,hm,HOME,Height Meter,1,0,0.0
+593,74,sf_opendata,xr4w-bx78,PK,Peak,Peak,1,1,1.0
+594,74,sf_opendata,xr4w-bx78,flt,flight,Float,1,0,0.0
+595,75,sf_opendata,qrwx-q4gg,LONG,long,Longitude,0,0,0.0
+596,75,sf_opendata,qrwx-q4gg,SITETY,Site Type,Site Type,1,1,1.0
+597,75,sf_opendata,qrwx-q4gg,ALTDES,ALT DESCRIPTION,Alternate Description,1,0,0.5
+598,75,sf_opendata,qrwx-q4gg,commnm,Common Name,Common Name,1,1,1.0
+599,75,sf_opendata,qrwx-q4gg,ownnm,Owner Name,Owner Name,1,1,1.0
+600,75,sf_opendata,qrwx-q4gg,st_ord,Site Order,Street Order,1,0,0.5
+601,75,sf_opendata,qrwx-q4gg,Pt,Point,Point,1,1,1.0
+602,75,sf_opendata,qrwx-q4gg,spvr_dist,SUPERVISOR DISTRICT,Supervisor District,1,1,1.0
+603,75,sf_opendata,qrwx-q4gg,axnDt,ACTION DATE,Action Date,2,1,1.0
+604,75,sf_opendata,qrwx-q4gg,ADD,Address No,Address,2,0,0.6666666666666666
+605,76,sf_opendata,qrwx-q4gg,lglSts,LEGAL STATUS,Legal Status,2,1,1.0
+606,76,sf_opendata,qrwx-q4gg,SciNm,Scientific Name,Scientific Name,2,1,1.0
+607,76,sf_opendata,qrwx-q4gg,AxnTp,action type,Action Type,2,1,1.0
+608,76,sf_opendata,qrwx-q4gg,PLTTP,plant type,Plant Type,2,1,1.0
+609,76,sf_opendata,qrwx-q4gg,trId,Tree ID,Tree ID,3,1,1.0
+610,76,sf_opendata,qrwx-q4gg,trPic,Tree Photo,Tree Picture,3,0,0.5
+611,77,sf_opendata,9r2x-93qm,mips,mips,Mainframe Instructions Per Second,0,0,0.0
+612,77,sf_opendata,9r2x-93qm,retnet,Ret Net,Return Network,0,0,0.0
+613,77,sf_opendata,9r2x-93qm,NTITLED,ENTITLED,Not Titled,0,0,0.0
+614,77,sf_opendata,9r2x-93qm,MPSNET,MIPS NET,Mainframe Processing System Network,0,0,0.0
+615,77,sf_opendata,9r2x-93qm,ObjId1,Object ID 1,Object Identifier 1,0,0,0.6666666666666666
+616,77,sf_opendata,9r2x-93qm,spnsr,SPONSOR,Sponsor,1,1,1.0
+617,77,sf_opendata,9r2x-93qm,ZONI,ZONING,Zone Identifier,1,0,0.6666666666666666
+618,77,sf_opendata,9r2x-93qm,AFDBLE,Affordable,Adjustable Field Double,1,0,0.0
+619,77,sf_opendata,9r2x-93qm,BstDt,Best Date,Best Date,1,1,1.0
+620,77,sf_opendata,9r2x-93qm,hotrm,Hotel Room,Hotel Room.,1,1,1.0
+621,78,sf_opendata,9r2x-93qm,plnn,PLANNER,Plan Number,1,0,0.0
+622,78,sf_opendata,9r2x-93qm,VST,VISIT,Value of Site Transaction,1,0,0.0
+623,78,sf_opendata,9r2x-93qm,ct,Contact,Contact,1,1,1.0
+624,78,sf_opendata,9r2x-93qm,lat,Latitude,Latitude,1,1,1.0
+625,78,sf_opendata,9r2x-93qm,LON,Longitude,Longitude,1,1,1.0
+626,78,sf_opendata,9r2x-93qm,rest,restaurant,Restaurant,1,1,1.0
+627,78,sf_opendata,9r2x-93qm,CS,Case No,Case Status,2,0,0.5
+628,78,sf_opendata,9r2x-93qm,LNDUSE,Land Use,Land Use,2,1,1.0
+629,78,sf_opendata,9r2x-93qm,MpsExst,Mips Exist,Map Status Existing,2,0,0.4
+630,78,sf_opendata,9r2x-93qm,retexst,Ret Exist,Retail Existing,2,0,0.5
+631,79,sf_opendata,9r2x-93qm,Sxn415,SECTION 415,Section 415,2,1,1.0
+632,79,sf_opendata,9r2x-93qm,VstNet,Visit Net,Vesting Net,2,0,0.5
+633,79,sf_opendata,9r2x-93qm,RstR1,Rest Aura 1,Rest Rate 1,3,0,0.6666666666666666
+634,79,sf_opendata,9r2x-93qm,yrs,Year,Years,3,1,1.0
+635,80,sf_opendata,iwbt-5xpd,mips,mips,Mainframe Instructions Per Second,0,0,0.0
+636,80,sf_opendata,iwbt-5xpd,RETNET,Ret Net,Return Network,0,0,0.0
+637,80,sf_opendata,iwbt-5xpd,MipsNet,mips net,Mainframe Network,0,0,0.0
+638,80,sf_opendata,iwbt-5xpd,NTITLED,ENTITLED,Not Titled,0,0,0.0
+639,80,sf_opendata,iwbt-5xpd,rst_aura_1,rest aura 1,Reset Aura 1,0,0,0.6666666666666666
+640,80,sf_opendata,iwbt-5xpd,bstDte,BEST DATE,Best Date,1,1,1.0
+641,80,sf_opendata,iwbt-5xpd,objid,OBJECT ID,Object ID,1,1,1.0
+642,80,sf_opendata,iwbt-5xpd,sec415,SECTION 415,Section 415,1,1,1.0
+643,80,sf_opendata,iwbt-5xpd,znng,Zoning,Zoning,1,1,1.0
+644,80,sf_opendata,iwbt-5xpd,AFDBLE,Affordable,Affordability Double.,1,0,0.0
+645,81,sf_opendata,iwbt-5xpd,hot_rm,HOTEL ROOM,Hotel Room,1,1,1.0
+646,81,sf_opendata,iwbt-5xpd,plan,PLANNER,Plan,1,0,0.0
+647,81,sf_opendata,iwbt-5xpd,spon,SPONSOR,Sponsor,1,1,1.0
+648,81,sf_opendata,iwbt-5xpd,vst,VISIT,Visit,1,1,1.0
+649,81,sf_opendata,iwbt-5xpd,Cct,CONTACT,Contact,1,1,1.0
+650,81,sf_opendata,iwbt-5xpd,lat,Latitude,Latitude,1,1,1.0
+651,81,sf_opendata,iwbt-5xpd,LON,Longitude,Longitude,1,1,1.0
+652,81,sf_opendata,iwbt-5xpd,rest,Restaurant,Restaurant,1,1,1.0
+653,81,sf_opendata,iwbt-5xpd,CASE,Case No,Case,2,0,0.6666666666666666
+654,81,sf_opendata,iwbt-5xpd,lndUse,Land Use,Land Use,2,1,1.0
+655,82,sf_opendata,iwbt-5xpd,MPSEXST,Mips Exist,Manufacturing Process Status,2,0,0.0
+656,82,sf_opendata,iwbt-5xpd,retExst,Ret Exist,Retail Establishment,2,0,0.0
+657,82,sf_opendata,iwbt-5xpd,VstNet,VISIT NET,Visit Net Income,2,0,0.8
+658,82,sf_opendata,iwbt-5xpd,yrs,Year,Years,3,1,1.0
+659,83,sf_opendata,8iri-b2sz,staff,staff,Staff Name,0,0,0.6666666666666666
+660,83,sf_opendata,8iri-b2sz,Frm,Form,Form Number,1,0,0.6666666666666666
+661,83,sf_opendata,8iri-b2sz,actn,action,Action,1,1,1.0
+662,83,sf_opendata,8iri-b2sz,ht,HEIGHT,Height,1,1,1.0
+663,83,sf_opendata,8iri-b2sz,Loc,LOCATION,Location,1,1,1.0
+664,83,sf_opendata,8iri-b2sz,supv,supervisor,Supervisor,1,1,1.0
+665,83,sf_opendata,8iri-b2sz,prpuse,Prop Use,Purpose,2,0,0.0
+666,83,sf_opendata,8iri-b2sz,ZnngDstrctNm,ZONING DISTRICT NAME,Zoning District Name,2,1,1.0
+667,83,sf_opendata,8iri-b2sz,axndte,action date,Annexed Date,2,0,0.5
+668,83,sf_opendata,8iri-b2sz,yrs,Year,Years,3,1,1.0
+669,84,sf_opendata,83ki-hu3p,22_pass,22 Pass,Pass status for test 22,0,0,0.5714285714285715
+670,84,sf_opendata,83ki-hu3p,31_pass,31 pass,Pass status for test 31,0,0,0.5714285714285715
+671,84,sf_opendata,83ki-hu3p,41_pass,41 Pass,Pass status for test 41,0,0,0.5714285714285715
+672,84,sf_opendata,83ki-hu3p,11PASS,11 Pass,Pass status for test 11,0,0,0.5714285714285715
+673,84,sf_opendata,83ki-hu3p,32Pass,32 Pass,Pass status for test 32,0,0,0.5714285714285715
+674,84,sf_opendata,83ki-hu3p,33Pass,33 Pass,Pass status for test 33,0,0,0.5714285714285715
+675,84,sf_opendata,83ki-hu3p,43Pass,43 PASS,Pass status for test 43,0,0,0.5714285714285715
+676,84,sf_opendata,83ki-hu3p,45Pass,45 pass,Pass status for test 45,0,0,0.5714285714285715
+677,84,sf_opendata,83ki-hu3p,46pass,46 pass,Pass status for test 46,0,0,0.5714285714285715
+678,84,sf_opendata,83ki-hu3p,54PASS,54 Pass,Pass status for test 54.,0,0,0.5714285714285715
+679,85,sf_opendata,83ki-hu3p,21_pss,21 Pass,21st percentile stress score,0,0,0.0
+680,85,sf_opendata,83ki-hu3p,34pss,34 Pass,34th percentile stress score,0,0,0.0
+681,85,sf_opendata,83ki-hu3p,42Pss,42 Pass,42nd percentile stress score,0,0,0.0
+682,85,sf_opendata,83ki-hu3p,44PSS,44 PASS,44th percentile stress score,0,0,0.0
+683,85,sf_opendata,83ki-hu3p,51pss,51 pass,51st percentile stress score,0,0,0.0
+684,85,sf_opendata,83ki-hu3p,52Pss,52 Pass,52nd percentile stress score,0,0,0.0
+685,85,sf_opendata,83ki-hu3p,53Pss,53 Pass,53rd percentile stress score,0,0,0.0
+686,85,sf_opendata,83ki-hu3p,45_strl_integrty_func,45 Structural Integrity Function,45th percentile structural integrity function,1,0,0.6666666666666665
+687,85,sf_opendata,83ki-hu3p,SupDist,Sup District,Supplier Distance,1,0,0.0
+688,85,sf_opendata,83ki-hu3p,54Cl,54 CLEARANCE,54th percentile Chloride level.,1,0,0.0
+689,86,sf_opendata,83ki-hu3p,mdpt_tms,Midpoint Times,Midpoint Times,1,1,1.0
+690,86,sf_opendata,83ki-hu3p,clCorr,Clean Corridor,Clean Corridor,1,1,1.0
+691,86,sf_opendata,83ki-hu3p,crrd,Corridor,Corrected,1,0,0.0
+692,86,sf_opendata,83ki-hu3p,Insp,Inspector,Inspection,1,0,0.0
+693,86,sf_opendata,83ki-hu3p,lat,LATITUDE,Latitude,1,1,1.0
+694,86,sf_opendata,83ki-hu3p,lon,LONGITUDE,Longitude,1,1,1.0
+695,86,sf_opendata,83ki-hu3p,pri,PRIORITY,Priority,1,1,1.0
+696,86,sf_opendata,83ki-hu3p,tp,type,Type,1,1,1.0
+697,86,sf_opendata,83ki-hu3p,11Scr102030Scr,11 Score 10 20 or 30 Score,11 Score 10 20 30 Score,2,0,0.923076923076923
+698,86,sf_opendata,83ki-hu3p,21Lttr102030Score,21 Litter 10 20 or 30 Score,21 Letter 10 20 30 Score.,2,0,0.7692307692307692
+699,87,sf_opendata,83ki-hu3p,41Fullnss,41 fullness,41 Fullness,2,1,1.0
+700,87,sf_opendata,83ki-hu3p,42_cleanlinss_trsh_rece,42 Cleanliness of Trash Receptacles,42 Cleanliness Trash Receptacle,2,0,0.888888888888889
+701,87,sf_opendata,83ki-hu3p,43cleanlinssarotrasrecep,43 CLEANLINESS AROUND TRASH RECEPTACLES,43 Cleanliness Around Trash Receptacle,2,1,1.0
+702,87,sf_opendata,83ki-hu3p,44Ptg,44 Painting,44 Painting,2,1,1.0
+703,87,sf_opendata,83ki-hu3p,51Cleanlinss,51 Cleanliness,51 Cleanliness,2,1,1.0
+704,87,sf_opendata,83ki-hu3p,51Cleanlinss,51 cleanliness,51 Cleanliness,2,1,1.0
+705,87,sf_opendata,83ki-hu3p,52TreeAppnc,52 TREE APPEARANCE,52 Tree Appearance,2,1,1.0
+706,87,sf_opendata,83ki-hu3p,crrddesc,Corridor Description,Corridor Description,2,1,1.0
+707,87,sf_opendata,83ki-hu3p,DTLDTYP,DETAILED TYPE,Detail Type,2,0,0.5
+708,87,sf_opendata,83ki-hu3p,EvalDte,EVALUATION DATE,Evaluation Date.,2,1,1.0
+709,88,sf_opendata,83ki-hu3p,vltrNm,Evaluator Name,Violator Name,2,0,0.5
+710,88,sf_opendata,83ki-hu3p,reprsentatveStSegmnt,REPRESENTATIVE STREET SEGMENT,Representative Street Segment,2,1,1.0
+711,88,sf_opendata,83ki-hu3p,SDRUE,Side of Street,Side of Street Rule Enforcement,2,0,0.7499999999999999
+712,89,sf_opendata,6xiy-xib3,filer_id,Filer ID,Filer ID,0,1,1.0
+713,89,sf_opendata,6xiy-xib3,flr,Filer,Filer,1,1,1.0
+714,89,sf_opendata,6xiy-xib3,amt,Amount,Amount,1,1,1.0
+715,89,sf_opendata,6xiy-xib3,spt_pps_neu,Support Oppose Neutral,Support/Oppose/Neutral Position,1,0,0.0
+716,89,sf_opendata,6xiy-xib3,CandId,Candidate Identified,Candidate ID,2,0,0.5
+717,89,sf_opendata,6xiy-xib3,re,reference no,Record Entry,2,0,0.0
+718,90,sf_opendata,dg6z-zdpi,mips_net,MIPS NET,MIPS Network,0,0,0.5
+719,90,sf_opendata,dg6z-zdpi,ret_net,Ret Net,Return Network,0,0,0.0
+720,90,sf_opendata,dg6z-zdpi,ntitled,Entitled,Network Titled,0,0,0.0
+721,90,sf_opendata,dg6z-zdpi,ret_exst,RET EXIST,Return Exist,0,0,0.5
+722,90,sf_opendata,dg6z-zdpi,BstDte,Best Date,Best Date,1,1,1.0
+723,90,sf_opendata,dg6z-zdpi,loc1,Location 1,Location 1,1,1,1.0
+724,90,sf_opendata,dg6z-zdpi,mps,Mips,MPS,1,0,0.0
+725,90,sf_opendata,dg6z-zdpi,plann,PLANNER,Planner,1,1,1.0
+726,90,sf_opendata,dg6z-zdpi,restnet,Restaurant Net,Rest Network,1,0,0.0
+727,90,sf_opendata,dg6z-zdpi,Spons,SPONSOR,Sponsor,1,1,1.0
+728,91,sf_opendata,dg6z-zdpi,AFDBLE,Affordable,Area For Development,1,0,0.0
+729,91,sf_opendata,dg6z-zdpi,hot_rm_exst,Hotel Room Exist,Hotel Room Exist,1,1,1.0
+730,91,sf_opendata,dg6z-zdpi,vst,visit,Visit,1,1,1.0
+731,91,sf_opendata,dg6z-zdpi,ct,CONTACT,City,1,0,0.0
+732,91,sf_opendata,dg6z-zdpi,rest,Restaurant,Restaurant,1,1,1.0
+733,91,sf_opendata,dg6z-zdpi,yr,Year,Year,1,1,1.0
+734,91,sf_opendata,dg6z-zdpi,prj_tp,project type,Project Type,1,1,1.0
+735,91,sf_opendata,dg6z-zdpi,Cs,Case No,Case,2,0,0.6666666666666666
+736,91,sf_opendata,dg6z-zdpi,hotrmprp,HOTEL ROOM PROP,Hotel Room Property,2,0,0.6666666666666666
+737,91,sf_opendata,dg6z-zdpi,mipsexst,MIPS EXIST,MIPS Exist,2,1,1.0
+738,92,sf_opendata,dg6z-zdpi,tenurTyp,TENURE TYPE,Tenure Type,2,1,1.0
+739,92,sf_opendata,dg6z-zdpi,vstexst,Visit Exist,Visit Existence,2,0,0.5
+740,92,sf_opendata,dg6z-zdpi,VstNet,Visit Net,Visit Net,2,1,1.0
+741,92,sf_opendata,dg6z-zdpi,afdblenet,affordable net,After Debit Net,2,0,0.4
+742,92,sf_opendata,dg6z-zdpi,HotRmNet,HOTEL ROOM NET,Hotel Room Net,3,1,1.0
+743,92,sf_opendata,dg6z-zdpi,PlnR,PLAN AREA,Plan Rate,3,0,0.5
+744,92,sf_opendata,dg6z-zdpi,sxn_416,Section 416,Section 416,3,1,1.0
+745,93,sf_opendata,eduu-fkrk,mips_net,MIPS NET,MIPS Network,0,0,0.5
+746,93,sf_opendata,eduu-fkrk,ret_net,Ret Net,Return Network,0,0,0.0
+747,93,sf_opendata,eduu-fkrk,ntitled,ENTITLED,Entitled,0,1,1.0
+748,93,sf_opendata,eduu-fkrk,vst_net,Visit Net,Visit Network,0,0,0.5
+749,93,sf_opendata,eduu-fkrk,mps,Mips,MPS,1,0,0.0
+750,93,sf_opendata,eduu-fkrk,plnnr,PLANNER,Planner,1,1,1.0
+751,93,sf_opendata,eduu-fkrk,RestNet,Restaurant Net,Rest Network,1,0,0.0
+752,93,sf_opendata,eduu-fkrk,vst_exst,visit exist,Visit Exist,1,1,1.0
+753,93,sf_opendata,eduu-fkrk,afdble,Affordable,Affordable,1,1,1.0
+754,93,sf_opendata,eduu-fkrk,bst_dt,Best Date,Best Date,1,1,1.0
+755,94,sf_opendata,eduu-fkrk,spon,SPONSOR,Sponsor,1,1,1.0
+756,94,sf_opendata,eduu-fkrk,Vst,Visit,Value,1,0,0.0
+757,94,sf_opendata,eduu-fkrk,prj_typ,project type,Project Type,1,1,1.0
+758,94,sf_opendata,eduu-fkrk,ct,Contact,Contact,1,1,1.0
+759,94,sf_opendata,eduu-fkrk,loc,Location,Location,1,1,1.0
+760,94,sf_opendata,eduu-fkrk,rest,Restaurant,Restrictions,1,0,0.0
+761,94,sf_opendata,eduu-fkrk,Lat,latitude,Latitude,1,1,1.0
+762,94,sf_opendata,eduu-fkrk,long,longitude,Longitude,1,1,1.0
+763,94,sf_opendata,eduu-fkrk,Yr,year,Year,1,1,1.0
+764,94,sf_opendata,eduu-fkrk,case,Case No,Case Number,2,0,0.5
+765,95,sf_opendata,eduu-fkrk,HotRmExst,HOTEL ROOM EXIST,Hotel Room Existing,2,1,1.0
+766,95,sf_opendata,eduu-fkrk,hotrmprp,HOTEL ROOM PROP,Hotel Room Proposed,2,0,0.6666666666666666
+767,95,sf_opendata,eduu-fkrk,mipsExst,Mips Exist,Mips Existing,2,1,1.0
+768,95,sf_opendata,eduu-fkrk,plnarea,Plan Area,Plan Area,2,1,1.0
+769,95,sf_opendata,eduu-fkrk,RETEXST,RET EXIST,Retail Existing,2,0,0.5
+770,95,sf_opendata,eduu-fkrk,Sxn415,Section 415,Section 415,2,1,1.0
+771,95,sf_opendata,eduu-fkrk,afdbleNet,affordable net,Affordable Net,2,1,1.0
+772,95,sf_opendata,eduu-fkrk,TenuTp,TENURE TYPE,Tenure Type,3,1,1.0
+773,95,sf_opendata,eduu-fkrk,HOTRMNET,hotel room net,Hotel Room Net.,3,1,1.0
+774,96,sf_opendata,v5p2-emnu,site_area,SITE AREA,Site Area,0,1,1.0
+775,96,sf_opendata,v5p2-emnu,unts,Units,Units,0,1,1.0
+776,96,sf_opendata,v5p2-emnu,Zonin,Zoning,Zoning,0,1,1.0
+777,96,sf_opendata,v5p2-emnu,NetMed,NET MEDICAL,Net Medical,1,1,1.0
+778,96,sf_opendata,v5p2-emnu,NETOFF,Net Office,Net Office,1,1,1.0
+779,96,sf_opendata,v5p2-emnu,LOC1,location 1,Location 1,1,1,1.0
+780,96,sf_opendata,v5p2-emnu,vstor,visitor,Vertical Storage,1,0,0.0
+781,96,sf_opendata,v5p2-emnu,Bck,Block,Block,1,1,1.0
+782,96,sf_opendata,v5p2-emnu,plan_proj_descriptn,PLANNING PROJECT DESCRIPTION,Plan Project Description,1,0,0.6666666666666666
+783,96,sf_opendata,v5p2-emnu,htLim,Height Limit,Height Limit.,1,1,1.0
+784,97,sf_opendata,v5p2-emnu,ofc,Office,Office,1,1,1.0
+785,97,sf_opendata,v5p2-emnu,stsgp,Status Group,Status Group,1,1,1.0
+786,97,sf_opendata,v5p2-emnu,bcklt,Block Lot,Backlog,2,0,0.0
+787,97,sf_opendata,v5p2-emnu,lnduse,Land Use,Land Use,2,1,1.0
+788,97,sf_opendata,v5p2-emnu,netvstor,NET VISITOR,Net Value Storage,2,0,0.4
+789,97,sf_opendata,v5p2-emnu,PROJST,PROJECT STATUS,Project Status,2,1,1.0
+790,97,sf_opendata,v5p2-emnu,PLANNBH,Planning Neighborhood,Planning Neighborhood,2,1,1.0
+791,97,sf_opendata,v5p2-emnu,prjdt,Project Date,Project Date,2,1,1.0
+792,97,sf_opendata,v5p2-emnu,ZnngGnrl,ZONING GENERALIZED,Zoning General,2,0,0.5
+793,97,sf_opendata,v5p2-emnu,ZnngSimpl,zoning simplified,Zoning Simple.,2,0,0.5
+794,98,sf_opendata,v5p2-emnu,mmfc,medical,Monthly Manufacturing Cost,3,0,0.0
+795,99,sf_opendata,yitu-d5am,actor3,Actor 3,Third Actor,0,0,0.5
+796,99,sf_opendata,yitu-d5am,actor1,actor 1,First Actor,0,0,0.5
+797,99,sf_opendata,yitu-d5am,ACTOR2,actor 2,Second Actor,0,0,0.5
+798,99,sf_opendata,yitu-d5am,wrtr,WRITER,Writer,1,1,1.0
+799,99,sf_opendata,yitu-d5am,DISTI,DISTRIBUTOR,Distributor,1,1,1.0
+800,99,sf_opendata,yitu-d5am,DIR,Director,Director,1,1,1.0
+801,99,sf_opendata,yitu-d5am,ProdCmp,PRODUCTION COMPANY,Production Company,1,1,1.0
+802,99,sf_opendata,yitu-d5am,Ti,title,Title,1,1,1.0
+803,99,sf_opendata,yitu-d5am,relyr,RELEASE YEAR,Release Year,3,1,1.0

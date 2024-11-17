@@ -28,7 +28,7 @@ class OpenaiLLM(BaseLLM):
 
     def prepare_model(self, openai_key: str, openai_api_key_path: str) -> None:
         if openai_key is None:
-            openai_key = "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"
+            openai_key = "OPENAI API KEY"
             if openai_key is None:
                 assert openai_api_key_path is not None
                 # read OpenAI key if needed

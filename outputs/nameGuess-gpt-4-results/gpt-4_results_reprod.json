@@ -1,0 +1,8 @@
+{
+    "squad-em": 0.5497512437810945,
+    "squad-f1": 0.702865935888324,
+    "squad-pm": 0.8308457711442786,
+    "model-name": "gpt-4",
+    "total-num-example": 804,
+    "demo": "As abbreviations of column names from a table, c_name | pCd | dt stand for Customer Name | Product Code | Date. "
+}

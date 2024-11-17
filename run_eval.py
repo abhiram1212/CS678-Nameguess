@@ -49,7 +49,7 @@ if __name__ == "__main__":
     data_chicago = load_data(args.test_file_chicago)
     data_la = load_data(args.test_file_la)
 
-    label_dict_l = data_sf + data_chicago + data_la
+    label_dict_l = (data_sf + data_chicago + data_la)[:100]
     num_examples = sum([len(ele["gt_label"]) for ele in label_dict_l])
     print("num_examples:", num_examples)
 
